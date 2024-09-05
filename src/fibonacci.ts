@@ -6,7 +6,7 @@ function fibonacci_sequencial(len: number, lista: number[]): number[] {
         return lista
 
     } else {
-        let add: number = lista.indexOf(lista.length - 1) + lista.indexOf(lista.length - 2)
+        let add: number = lista[lista.length -1] + lista[lista.length - 2]
         lista.push(add)
 
         return fibonacci_sequencial(len, lista) 

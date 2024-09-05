@@ -9,3 +9,4 @@ function factorial(num) {
 }
 let numero = 5;
 console.log(factorial(numero));
+//# sourceMappingURL=factorial.js.map
