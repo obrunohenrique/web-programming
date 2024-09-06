@@ -1,0 +1,12 @@
+"use strict";
+class Computador {
+    constructor(nome, ram, cpu, ligado) {
+        this.nome = nome;
+        this.ram = ram;
+        this.cpu = cpu;
+        this.ligado = ligado;
+    }
+}
+const c2 = new Computador("Computador 2", 8, 7, true);
+console.log(c1);
+//# sourceMappingURL=aula17.js.map
