@@ -1,4 +1,4 @@
-class Conta {
+abstract class Conta {
     protected numero:number;
     protected titular:string;
     protected saldoconta:number;
@@ -48,7 +48,13 @@ class Conta {
     
 }
 
-class ContaPF extends Conta {
+interface tributos {
+    taxa:number;
+    calcularimposto(valor:number):number;
+}
+
+class ContaPF extends Conta implements tributos{
+    taxa = 10
     cpf:number
 
     constructor(titular:string, cpf:number) {
@@ -69,6 +75,10 @@ class ContaPF extends Conta {
         } else {
             console.log("Valor de deposíto muito elevado para esse tipo de conta.")
         }
+    }
+
+    calcularimposto(valor:number):number {
+        return valor*this.taxa
     }
 
     public saque(valor:number):void {
