@@ -4,4 +4,7 @@
 
 import { Globais } from "./globais";
 
+Globais.teste = 20
+
 console.log(Globais.teste)
+console.log(Globais.objeto)

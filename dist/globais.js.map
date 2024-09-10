@@ -1,1 +1,1 @@
-{"version":3,"file":"globais.js","sourceRoot":"","sources":["../src/globais.ts"],"names":[],"mappings":";;;AAAA,MAAsB,OAAO;;AAA7B,0BAEC;AADiB,aAAK,GAAU,CAAC,CAAA"}
+{"version":3,"file":"globais.js","sourceRoot":"","sources":["../src/globais.ts"],"names":[],"mappings":";;;AAAA,MAAsB,OAAO;;AAA7B,0BAOC;AANiB,aAAK,GAAU,CAAC,CAAA;AAChB,cAAM,GAAY,EAAE,CAAA;AACpB,cAAM,GAAG;IACnB,IAAI,EAAC,OAAO;IACZ,KAAK,EAAC,EAAE;CACX,CAAA"}
