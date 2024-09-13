@@ -1,4 +1,3 @@
-"use strict";
 function logar(user, senha) {
     console.log(`User..: ${user}`);
     console.log(`Senha.: ${senha}`);

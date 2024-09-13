@@ -1,4 +1,3 @@
-"use strict";
 /*ENUMERADORES - ENUM */
 // São conjuntos de dados que podemos utilizar e classificar por valores numerais e textuais
 var dias;

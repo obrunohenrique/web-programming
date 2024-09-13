@@ -1,4 +1,3 @@
-"use strict";
 // GENERICS - Um componente que pode funcionar com vários tipos
 function fteste(v, r) {
     return r;

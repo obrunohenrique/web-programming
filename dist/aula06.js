@@ -1,4 +1,3 @@
-"use strict";
 /*AULA ARRAY*/
 let numeros = [20, 30, 40];
 numeros.push(10); // Insere no final do Array

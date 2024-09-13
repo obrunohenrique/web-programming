@@ -1,4 +1,3 @@
-"use strict";
 // ARROW FUNCTION
 const teste = (txt = '...') => {
     console.log(txt);

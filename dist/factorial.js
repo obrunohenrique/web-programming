@@ -1,4 +1,3 @@
-"use strict";
 function factorial(num) {
     if (num === 0) {
         return 1;

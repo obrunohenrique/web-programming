@@ -1,4 +1,3 @@
-"use strict";
 let fibonacci = [1, 1];
 let num_sequential = 6;
 function fibonacci_sequencial(len, lista) {

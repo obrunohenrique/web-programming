@@ -1,4 +1,3 @@
-"use strict";
 class Computador {
     constructor(nome, ram, cpu, ligado) {
         this.nome = nome;

@@ -1,4 +1,3 @@
-"use strict";
 // NULL - UNDEFINED - UNKNOWN
 let vnome; // NULL <> vazio, ele não é "nada", ele é o tipo que possui o vazio.
 vnome = null;
