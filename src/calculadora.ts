@@ -28,12 +28,14 @@ for (let b=0; container_botoes.length; b++) {
                 if (container_botoes[b].innerHTML != "=") {
                     operador = container_botoes[b].innerHTML
                 }
+                operandos = virgula(operandos)
+                console.log(operandos)
                 operando1 = Number(operandos[0]);
-                operando2 = Number(operandos[1]);
+                operando2 = Number(operandos[1]); 
 
                 if(container_botoes[b].innerHTML == "=") {
                     console.log(operador)
-                    visor.innerHTML = calcular(operando1, operador, operando2).toString()
+                    visor.innerHTML = calcular(operando1, operador, operando2).toFixed(3).toString()
                     operando_atual = visor.innerHTML
                     operandos = []
                     
@@ -45,7 +47,7 @@ for (let b=0; container_botoes.length; b++) {
                     
 
                 } else {
-                    visor.innerHTML = calcular(operando1, operador, operando2).toString()
+                    visor.innerHTML = calcular(operando1, operador, operando2).toFixed(3).toString()
                     operando_atual = visor.innerHTML
                     operandos = []
                     
@@ -90,3 +92,7 @@ function calcular(op1:number, op3:string, op2?:number):number {
     }
 }
 
+function virgula(lista:string[]):string[] {
+    
+    return lista.map((str: string) => str.replace(",", "."))
+}
