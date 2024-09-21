@@ -1,15 +1,37 @@
 @use "variaveis";
-// $color-orange: orange;
+
+@mixin button-style($background, $color) {
+    background: $background;
+    color: $color;
+}
 
 .btn {
+    cursor: pointer;
+    display: block;
+    margin: 10px;
     width: 200px;
     padding: 10px 0;
     background: none;
     border: 0;
     border-radius: 10px;
+    transition: opacity .3s;
+
+    &:hover {
+        opacity: 80%;
+    }
 }
 
 .btn-laranja {
     @extend .btn;
-    background: variaveis.$color-orange;
+    @include button-style(variaveis.$color-orange, #fff)
+}
+
+.btn-roxo {
+    @extend .btn;
+    @include button-style(variaveis.$color-purple, #fff)
+}
+
+.btn-verde {
+    @extend .btn;
+    @include button-style(variaveis.$color-green, #fff)
 }
