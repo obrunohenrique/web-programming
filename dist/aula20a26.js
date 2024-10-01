@@ -1,4 +1,3 @@
-"use strict";
 class Conta {
     constructor(titular) {
         this.numero = this.gerarNumeroConta();

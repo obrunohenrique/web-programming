@@ -1,0 +1,6 @@
+@use "variaveis";
+@import "./buttons.scss";
+
+p {
+    color: variaveis.$color-orange;
+}

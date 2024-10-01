@@ -1,4 +1,3 @@
-"use strict";
 // DESESTRUTURAÇÃO
 let av = [10, 20, 30, 40];
 // aa = av[0] ASSIM É SEM A ESTRUTURA DE DESESTRUTURAÇÃO

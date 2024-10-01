@@ -1,4 +1,3 @@
-"use strict";
 // INTERFACES
 let curso1 = {
     titulo: "typescript",

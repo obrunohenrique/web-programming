@@ -1,4 +1,3 @@
-"use strict";
 // NAMESPACES - Forma de organizanização/direcionar conteúdos
 var Veiculos;
 (function (Veiculos) {

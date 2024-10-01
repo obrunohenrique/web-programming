@@ -1,4 +1,3 @@
-"use strict";
 // Parâmetro REST
 function fsmoa(...n) {
     let s = 0;

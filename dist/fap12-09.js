@@ -1,4 +1,3 @@
-"use strict";
 class Pessoa {
     constructor(nome, idade) {
         this._nome = nome;
