@@ -11,15 +11,53 @@ const estilo = {
     }
 }
 
+interface Person {
+    name:string;
+    imgid:string;
+}
+
+function Card({children}: {children:any}) {
+
+    return (
+        <div className="profile" style={estilo.theme}>
+            {children}
+        </div>
+    )
+}
+
+function Avatar({size, person}: {size:number; person:Person}) {
+
+    return (
+        <>
+            <img
+                src={person.imgid}
+                alt={person.name}
+                width={size}
+                height={size} 
+            />
+        </>
+        
+    )
+}
+
+
 function Profile() {
     
     return (
         <>
-            <div className="profile" style={estilo.theme}>
+            <Card>
+                
+                <Avatar
+                    size={100}
+                    person={{
+                        name: "bruno",
+                        imgid: '../img/foto1.jpg'
+                    }}
+                />
                 <h1>Hello World! meu nome é {pessoa.nome}</h1>
                 <h2>tenho {pessoa.idade} anos</h2>
                 <p>Atuo como {pessoa.profissao}</p>
-            </div>
+            </Card>
         </>
     )
 }

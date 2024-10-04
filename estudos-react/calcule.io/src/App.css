@@ -24,6 +24,11 @@ div.profile {
   text-align: center;
 }
 
+div.clock {
+  text-align: center;
+  font-size: 1.6em;
+}
+
 footer {
   width: 98vw;
   text-align: center;
