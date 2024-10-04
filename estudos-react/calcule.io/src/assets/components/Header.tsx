@@ -3,7 +3,10 @@ function Header () {
     return (
         <>
             <header>
-                <nav>
+                <nav style={{
+                    backgroundColor: 'black',
+                    color: 'white'
+                }}>
                     <ul className="flex">
                         <li>Portifólio</li>
                         <li>Sobre mim</li>
