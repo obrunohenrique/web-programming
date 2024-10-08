@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header () {
 
     return (
@@ -8,8 +10,8 @@ function Header () {
                     color: 'white'
                 }}>
                     <ul className="flex">
-                        <li>Portifólio</li>
-                        <li>Sobre mim</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/sobre">Sobre mim</Link></li>
                         <li>Contatos</li>
                     </ul>
                 </nav>

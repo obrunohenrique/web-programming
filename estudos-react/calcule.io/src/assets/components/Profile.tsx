@@ -51,7 +51,7 @@ function Profile() {
                     size={100}
                     person={{
                         name: "bruno",
-                        imgid: '../img/foto1.jpg'
+                        imgid: 'https://images.vexels.com/content/196107/preview/chair-front-stroke-41f31d.png'
                     }}
                 />
                 <h1>Hello World! meu nome é {pessoa.nome}</h1>
