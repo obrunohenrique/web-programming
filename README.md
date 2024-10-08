@@ -1,2 +1,5 @@
-# typescript
-Modulo criado para arquivos de estudo de typescript
+# Web-Programming
+Repositório criado para o estudos de tecnologias voltadas ao desenvolvimento web.
+
+<h1>Tecnologias estudadas:<h1/>
+HTML, CSS, JavaScript, TypeScript, SASS, React
