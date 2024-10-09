@@ -1,3 +1,5 @@
+import logo from "../img/foto1.jpg";
+
 const pessoa = {
     nome: "Bruno",
     idade: 19,
@@ -13,7 +15,6 @@ const estilo = {
 
 interface Person {
     name:string;
-    imgid:string;
 }
 
 function Card({children}: {children:any}) {
@@ -30,7 +31,7 @@ function Avatar({size, person}: {size:number; person:Person}) {
     return (
         <>
             <img
-                src={person.imgid}
+                src={logo}
                 alt={person.name}
                 width={size}
                 height={size} 
@@ -51,7 +52,6 @@ function Profile() {
                     size={100}
                     person={{
                         name: "bruno",
-                        imgid: 'https://images.vexels.com/content/196107/preview/chair-front-stroke-41f31d.png'
                     }}
                 />
                 <h1>Hello World! meu nome é {pessoa.nome}</h1>
