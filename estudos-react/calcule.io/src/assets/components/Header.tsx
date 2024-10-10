@@ -12,7 +12,7 @@ function Header () {
                     <ul className="flex">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/sobre">Sobre mim</Link></li>
-                        <li>Contatos</li>
+                        <li><Link to='/instrumentos'>Instrumentos</Link></li>
                     </ul>
                 </nav>
             </header>

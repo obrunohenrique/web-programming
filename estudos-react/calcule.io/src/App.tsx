@@ -7,6 +7,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './assets/pages/Home'
 import Sobre from './assets/pages/Sobre'
+import Instrumentos from './assets/pages/Instrumentos'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/sobre' element={<Sobre/>}/>
+          <Route path='/instrumentos' element={<Instrumentos/>}/>
         </Routes>
       </Router>
     </>
