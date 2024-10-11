@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import instrumentoslist from "../data/instrumentos-list.ts";
+import Preservstate from "../components/PreservState.tsx";
 
 function Instrumentos() {
 
@@ -33,6 +34,9 @@ function Instrumentos() {
             <button onClick={handleClick}>
                 Próximo
             </button>
+
+
+            <Preservstate/>
         </>
     )
 }
